@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0CA4101F2BEF4100AD7A86 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CA40F1F2BEF4100AD7A86 /* SignInViewController.swift */; };
+		0A3659D51F1FDD61000B5CF7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3659D41F1FDD61000B5CF7 /* GameScene.swift */; };
+		0A3659D71F1FDE51000B5CF7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3659D61F1FDE51000B5CF7 /* GameViewController.swift */; };
+		0A3659D91F1FDEBA000B5CF7 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3659D81F1FDEBA000B5CF7 /* MenuVC.swift */; };
+		0A3659DB1F1FDFE6000B5CF7 /* PressStart2P.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3659DA1F1FDFE6000B5CF7 /* PressStart2P.ttf */; };
+		0A3659DF1F1FE0E2000B5CF7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A3659DE1F1FE0E2000B5CF7 /* GameScene.sks */; };
+		0A3659E11F1FE1A6000B5CF7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A3659E01F1FE1A6000B5CF7 /* Actions.sks */; };
+		0A6E86571F2F94300073BED0 /* LoggedInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E86561F2F94300073BED0 /* LoggedInVC.swift */; };
+		0A6E86591F2F97280073BED0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E86581F2F97280073BED0 /* FirstViewController.swift */; };
+		0A7D03611F0ED79200C4BC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D03601F0ED79200C4BC0B /* AppDelegate.swift */; };
+		0A7D03631F0ED79200C4BC0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D03621F0ED79200C4BC0B /* ViewController.swift */; };
+		0A7D03661F0ED79200C4BC0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7D03641F0ED79200C4BC0B /* Main.storyboard */; };
+		0A7D03681F0ED79200C4BC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7D03671F0ED79200C4BC0B /* Assets.xcassets */; };
+		0A7D036B1F0ED79200C4BC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7D03691F0ED79200C4BC0B /* LaunchScreen.storyboard */; };
+		0A7D038F1F0EDBE100C4BC0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A7D038E1F0EDBE100C4BC0B /* GoogleService-Info.plist */; };
+		0A7EE5121F2A81CE009FA80E /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7EE5111F2A81CE009FA80E /* CommentsTableViewCell.swift */; };
+		0A7EE5141F2A82D1009FA80E /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7EE5131F2A82D1009FA80E /* CommentModel.swift */; };
+		0A7EE5161F2A83E3009FA80E /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7EE5151F2A83E3009FA80E /* CommentsViewController.swift */; };
+		18D29E19AEF4F799CFDFEF5D /* Pods_PlayGround2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD1455E281D08EE1E0AE98E /* Pods_PlayGround2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A7D03721F0ED79200C4BC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A7D03551F0ED79200C4BC0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A7D035C1F0ED79200C4BC0B;
+			remoteInfo = PlayGround2;
+		};
+		0A7D037D1F0ED79300C4BC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A7D03551F0ED79200C4BC0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A7D035C1F0ED79200C4BC0B;
+			remoteInfo = PlayGround2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0CA40F1F2BEF4100AD7A86 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0A3659D41F1FDD61000B5CF7 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0A3659D61F1FDE51000B5CF7 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0A3659D81F1FDEBA000B5CF7 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		0A3659DA1F1FDFE6000B5CF7 /* PressStart2P.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PressStart2P.ttf; sourceTree = "<group>"; };
+		0A3659DE1F1FE0E2000B5CF7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0A3659E01F1FE1A6000B5CF7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		0A6E86561F2F94300073BED0 /* LoggedInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInVC.swift; sourceTree = "<group>"; };
+		0A6E86581F2F97280073BED0 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0A7D035D1F0ED79200C4BC0B /* PlayGround2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayGround2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7D03601F0ED79200C4BC0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A7D03621F0ED79200C4BC0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A7D03651F0ED79200C4BC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A7D03671F0ED79200C4BC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A7D036A1F0ED79200C4BC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A7D036C1F0ED79200C4BC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7D03711F0ED79200C4BC0B /* PlayGround2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayGround2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7D037C1F0ED79300C4BC0B /* PlayGround2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayGround2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7D038E1F0EDBE100C4BC0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A7EE5111F2A81CE009FA80E /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		0A7EE5131F2A82D1009FA80E /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		0A7EE5151F2A83E3009FA80E /* CommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		0CD1455E281D08EE1E0AE98E /* Pods_PlayGround2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayGround2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFFBC2887473D4D905D4EAC /* Pods-PlayGround2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGround2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayGround2/Pods-PlayGround2.debug.xcconfig"; sourceTree = "<group>"; };
+		6684583C06F829F07305AE63 /* Pods_PlayGround2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayGround2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C99E5D87E9E045635D2D62 /* Pods-PlayGround2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGround2.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayGround2/Pods-PlayGround2.release.xcconfig"; sourceTree = "<group>"; };
+		EBAA5F16405E68935ADA44AF /* Pods_PlayGround2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayGround2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A7D035A1F0ED79200C4BC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D29E19AEF4F799CFDFEF5D /* Pods_PlayGround2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7D036E1F0ED79200C4BC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7D03791F0ED79300C4BC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3659D31F1FDD21000B5CF7 /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				0A3659E01F1FE1A6000B5CF7 /* Actions.sks */,
+				0A3659DE1F1FE0E2000B5CF7 /* GameScene.sks */,
+				0A3659D41F1FDD61000B5CF7 /* GameScene.swift */,
+				0A3659D61F1FDE51000B5CF7 /* GameViewController.swift */,
+				0A3659D81F1FDEBA000B5CF7 /* MenuVC.swift */,
+				0A3659DA1F1FDFE6000B5CF7 /* PressStart2P.ttf */,
+			);
+			name = Pong;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0A7D03541F0ED79200C4BC0B = {
+			isa = PBXGroup;
+			children = (
+				0A7D035F1F0ED79200C4BC0B /* PlayGround2 */,
+				0A7D035E1F0ED79200C4BC0B /* Products */,
+				53947FAF90F95D9124A9A58C /* Pods */,
+				5EB8C4CB4E600733AE3317AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A7D035E1F0ED79200C4BC0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A7D035D1F0ED79200C4BC0B /* PlayGround2.app */,
+				0A7D03711F0ED79200C4BC0B /* PlayGround2Tests.xctest */,
+				0A7D037C1F0ED79300C4BC0B /* PlayGround2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A7D035F1F0ED79200C4BC0B /* PlayGround2 */ = {
+			isa = PBXGroup;
+			children = (
+				0A3659D31F1FDD21000B5CF7 /* Pong */,
+				0A7D03601F0ED79200C4BC0B /* AppDelegate.swift */,
+				0A0CA40F1F2BEF4100AD7A86 /* SignInViewController.swift */,
+				0A6E86561F2F94300073BED0 /* LoggedInVC.swift */,
+				0A7D03621F0ED79200C4BC0B /* ViewController.swift */,
+				0A6E86581F2F97280073BED0 /* FirstViewController.swift */,
+				0A7D03641F0ED79200C4BC0B /* Main.storyboard */,
+				0A7EE5171F2A83EE009FA80E /* CommentsModel */,
+				0A7D03671F0ED79200C4BC0B /* Assets.xcassets */,
+				0A7D03691F0ED79200C4BC0B /* LaunchScreen.storyboard */,
+				0A7D038E1F0EDBE100C4BC0B /* GoogleService-Info.plist */,
+				0A7D036C1F0ED79200C4BC0B /* Info.plist */,
+			);
+			path = PlayGround2;
+			sourceTree = "<group>";
+		};
+		0A7EE5171F2A83EE009FA80E /* CommentsModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A7EE5131F2A82D1009FA80E /* CommentModel.swift */,
+				0A7EE5111F2A81CE009FA80E /* CommentsTableViewCell.swift */,
+				0A7EE5151F2A83E3009FA80E /* CommentsViewController.swift */,
+			);
+			name = CommentsModel;
+			sourceTree = "<group>";
+		};
+		53947FAF90F95D9124A9A58C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFBC2887473D4D905D4EAC /* Pods-PlayGround2.debug.xcconfig */,
+				D7C99E5D87E9E045635D2D62 /* Pods-PlayGround2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EB8C4CB4E600733AE3317AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CD1455E281D08EE1E0AE98E /* Pods_PlayGround2.framework */,
+				EBAA5F16405E68935ADA44AF /* Pods_PlayGround2Tests.framework */,
+				6684583C06F829F07305AE63 /* Pods_PlayGround2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A7D035C1F0ED79200C4BC0B /* PlayGround2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7D03851F0ED79300C4BC0B /* Build configuration list for PBXNativeTarget "PlayGround2" */;
+			buildPhases = (
+				51676710ADEE5C461A1078E6 /* [CP] Check Pods Manifest.lock */,
+				0A7D03591F0ED79200C4BC0B /* Sources */,
+				0A7D035A1F0ED79200C4BC0B /* Frameworks */,
+				0A7D035B1F0ED79200C4BC0B /* Resources */,
+				07E6BB2DEEA867EDC2EFEDF1 /* [CP] Embed Pods Frameworks */,
+				90FC08CC463B755864086AAF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayGround2;
+			productName = PlayGround2;
+			productReference = 0A7D035D1F0ED79200C4BC0B /* PlayGround2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A7D03701F0ED79200C4BC0B /* PlayGround2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7D03881F0ED79300C4BC0B /* Build configuration list for PBXNativeTarget "PlayGround2Tests" */;
+			buildPhases = (
+				0A7D036D1F0ED79200C4BC0B /* Sources */,
+				0A7D036E1F0ED79200C4BC0B /* Frameworks */,
+				0A7D036F1F0ED79200C4BC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7D03731F0ED79200C4BC0B /* PBXTargetDependency */,
+			);
+			name = PlayGround2Tests;
+			productName = PlayGround2Tests;
+			productReference = 0A7D03711F0ED79200C4BC0B /* PlayGround2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A7D037B1F0ED79300C4BC0B /* PlayGround2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7D038B1F0ED79300C4BC0B /* Build configuration list for PBXNativeTarget "PlayGround2UITests" */;
+			buildPhases = (
+				0A7D03781F0ED79300C4BC0B /* Sources */,
+				0A7D03791F0ED79300C4BC0B /* Frameworks */,
+				0A7D037A1F0ED79300C4BC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7D037E1F0ED79300C4BC0B /* PBXTargetDependency */,
+			);
+			name = PlayGround2UITests;
+			productName = PlayGround2UITests;
+			productReference = 0A7D037C1F0ED79300C4BC0B /* PlayGround2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A7D03551F0ED79200C4BC0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					0A7D035C1F0ED79200C4BC0B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					0A7D03701F0ED79200C4BC0B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A7D035C1F0ED79200C4BC0B;
+					};
+					0A7D037B1F0ED79300C4BC0B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A7D035C1F0ED79200C4BC0B;
+					};
+				};
+			};
+			buildConfigurationList = 0A7D03581F0ED79200C4BC0B /* Build configuration list for PBXProject "PlayGround2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A7D03541F0ED79200C4BC0B;
+			productRefGroup = 0A7D035E1F0ED79200C4BC0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A7D035C1F0ED79200C4BC0B /* PlayGround2 */,
+				0A7D03701F0ED79200C4BC0B /* PlayGround2Tests */,
+				0A7D037B1F0ED79300C4BC0B /* PlayGround2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A7D035B1F0ED79200C4BC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3659E11F1FE1A6000B5CF7 /* Actions.sks in Resources */,
+				0A3659DB1F1FDFE6000B5CF7 /* PressStart2P.ttf in Resources */,
+				0A7D036B1F0ED79200C4BC0B /* LaunchScreen.storyboard in Resources */,
+				0A7D03681F0ED79200C4BC0B /* Assets.xcassets in Resources */,
+				0A7D03661F0ED79200C4BC0B /* Main.storyboard in Resources */,
+				0A3659DF1F1FE0E2000B5CF7 /* GameScene.sks in Resources */,
+				0A7D038F1F0EDBE100C4BC0B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7D036F1F0ED79200C4BC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7D037A1F0ED79300C4BC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07E6BB2DEEA867EDC2EFEDF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayGround2/Pods-PlayGround2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51676710ADEE5C461A1078E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90FC08CC463B755864086AAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayGround2/Pods-PlayGround2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A7D03591F0ED79200C4BC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3659D51F1FDD61000B5CF7 /* GameScene.swift in Sources */,
+				0A3659D91F1FDEBA000B5CF7 /* MenuVC.swift in Sources */,
+				0A7D03631F0ED79200C4BC0B /* ViewController.swift in Sources */,
+				0A6E86571F2F94300073BED0 /* LoggedInVC.swift in Sources */,
+				0A3659D71F1FDE51000B5CF7 /* GameViewController.swift in Sources */,
+				0A7D03611F0ED79200C4BC0B /* AppDelegate.swift in Sources */,
+				0A7EE5141F2A82D1009FA80E /* CommentModel.swift in Sources */,
+				0A7EE5161F2A83E3009FA80E /* CommentsViewController.swift in Sources */,
+				0A0CA4101F2BEF4100AD7A86 /* SignInViewController.swift in Sources */,
+				0A7EE5121F2A81CE009FA80E /* CommentsTableViewCell.swift in Sources */,
+				0A6E86591F2F97280073BED0 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7D036D1F0ED79200C4BC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7D03781F0ED79300C4BC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A7D03731F0ED79200C4BC0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A7D035C1F0ED79200C4BC0B /* PlayGround2 */;
+			targetProxy = 0A7D03721F0ED79200C4BC0B /* PBXContainerItemProxy */;
+		};
+		0A7D037E1F0ED79300C4BC0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A7D035C1F0ED79200C4BC0B /* PlayGround2 */;
+			targetProxy = 0A7D037D1F0ED79300C4BC0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A7D03641F0ED79200C4BC0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7D03651F0ED79200C4BC0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A7D03691F0ED79200C4BC0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7D036A1F0ED79200C4BC0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A7D03831F0ED79300C4BC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A7D03841F0ED79300C4BC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A7D03861F0ED79300C4BC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFFBC2887473D4D905D4EAC /* Pods-PlayGround2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayGround2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.PlayGround2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0A7D03871F0ED79300C4BC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C99E5D87E9E045635D2D62 /* Pods-PlayGround2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayGround2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.PlayGround2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0A7D03891F0ED79300C4BC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlayGround2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.PlayGround2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayGround2.app/PlayGround2";
+			};
+			name = Debug;
+		};
+		0A7D038A1F0ED79300C4BC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlayGround2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.PlayGround2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayGround2.app/PlayGround2";
+			};
+			name = Release;
+		};
+		0A7D038C1F0ED79300C4BC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PlayGround2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.PlayGround2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PlayGround2;
+			};
+			name = Debug;
+		};
+		0A7D038D1F0ED79300C4BC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PlayGround2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.PlayGround2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PlayGround2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A7D03581F0ED79200C4BC0B /* Build configuration list for PBXProject "PlayGround2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7D03831F0ED79300C4BC0B /* Debug */,
+				0A7D03841F0ED79300C4BC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7D03851F0ED79300C4BC0B /* Build configuration list for PBXNativeTarget "PlayGround2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7D03861F0ED79300C4BC0B /* Debug */,
+				0A7D03871F0ED79300C4BC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7D03881F0ED79300C4BC0B /* Build configuration list for PBXNativeTarget "PlayGround2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7D03891F0ED79300C4BC0B /* Debug */,
+				0A7D038A1F0ED79300C4BC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7D038B1F0ED79300C4BC0B /* Build configuration list for PBXNativeTarget "PlayGround2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7D038C1F0ED79300C4BC0B /* Debug */,
+				0A7D038D1F0ED79300C4BC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A7D03551F0ED79200C4BC0B /* Project object */;
+}
